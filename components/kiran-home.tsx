@@ -327,17 +327,22 @@ function Leadership() {
     <section className="bg-mist py-20 dark:bg-slate-950 sm:py-24">
       <div className="container grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
         <SectionReveal>
-          <div className="relative aspect-[4/5] overflow-hidden rounded-lg border border-border bg-slate-200 dark:bg-slate-900">
-            <Image
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1000&q=85"
-              alt="Professional executive portrait placeholder"
-              fill
-              sizes="(min-width: 1024px) 38vw, 100vw"
-              className="object-cover"
-            />
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy/90 to-transparent p-6 text-white">
+          <div className="rounded-lg border border-border bg-navy p-8 text-white shadow-soft sm:p-10">
+            <div className="flex size-16 items-center justify-center rounded-md bg-corporate text-2xl font-black">
+              KS
+            </div>
+            <div className="mt-10">
               <p className="text-sm font-semibold uppercase tracking-[0.16em] text-teal">Managing Partner</p>
-              <p className="mt-2 text-2xl font-bold">Rajoli Sai Saran Reddy</p>
+              <h3 className="mt-3 text-3xl font-bold leading-tight">Rajoli Sai Saran Reddy</h3>
+              <p className="mt-5 leading-8 text-white/70">
+                Founder-led workforce management with an emphasis on deployment discipline, compliance, and
+                client-side continuity.
+              </p>
+            </div>
+            <div className="mt-10 grid gap-3 border-t border-white/10 pt-6 text-sm font-semibold text-white/80">
+              <span>Workforce Deployment</span>
+              <span>Educational Administration</span>
+              <span>Organizational Leadership</span>
             </div>
           </div>
         </SectionReveal>

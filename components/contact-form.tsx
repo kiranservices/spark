@@ -4,6 +4,7 @@ import { ArrowRight, Send } from "lucide-react";
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
+import { site } from "@/lib/site-data";
 import { cn } from "@/lib/utils";
 
 const fields = [
@@ -54,7 +55,7 @@ export function ContactForm() {
           Submit Enquiry
         </Button>
         <Button asChild variant="outline" size="lg">
-          <a href="mailto:kiranserviceskdp@gmail.com">
+          <a href={`mailto:${site.email}`}>
             Email Directly
             <ArrowRight />
           </a>

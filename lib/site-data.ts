@@ -32,7 +32,7 @@ export const site = {
   url: "https://kiranservices.in",
   phonePrimary: "+91 7022660765",
   phoneSecondary: "+91 9100444250",
-  email: "kiranserviceskdp@gmail.com",
+  email: "managingpartner@kiranservices.in",
   whatsapp: "917022660765",
 };
 

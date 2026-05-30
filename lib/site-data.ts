@@ -29,7 +29,7 @@ export const site = {
   tagline: "Building Careers. Empowering Enterprises.",
   description:
     "India's trusted workforce solutions partner for skilled, semi-skilled, and unskilled manpower deployment with complete statutory compliance.",
-  url: "https://kiranservices.in",
+  url: "https://www.kiranservices.in",
   phonePrimary: "+91 7022660765",
   phoneSecondary: "+91 9100444250",
   email: "managingpartner@kiranservices.in",

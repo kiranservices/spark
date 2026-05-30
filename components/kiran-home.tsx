@@ -8,7 +8,6 @@ import {
   ClipboardList,
   FileText,
   Mail,
-  MapPin,
   Phone,
   ShieldCheck,
   Sparkles,
@@ -493,13 +492,6 @@ function Contact() {
                   <Mail className="size-5 text-teal" />
                   {site.email}
                 </a>
-              </div>
-            </div>
-            <div className="flex min-h-[220px] items-center justify-center rounded-lg border border-dashed border-white/20 bg-white/[0.06] p-6 text-center">
-              <div>
-                <MapPin className="mx-auto mb-4 size-7 text-teal" />
-                <p className="font-bold">Google Maps Embed Placeholder</p>
-                <p className="mt-2 text-sm text-white/70">Andhra Pradesh and Bengaluru office locations</p>
               </div>
             </div>
           </div>
